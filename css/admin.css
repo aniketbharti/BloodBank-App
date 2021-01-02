@@ -1,0 +1,63 @@
+#side-bar{
+	background-color:#D9D9D9;
+	min-height:100vh;
+	box-shadow: 5px 0px 15px rgba(0,0,0,0.3);
+	position: fixed;
+}
+#side-bar-header{
+	background-color: #222222;
+	height: 10vh;
+	max-height: 10vh;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+	vertical-align: middle;
+}
+#main-page{
+	min-height: 100vh;
+	background-color: #FCFCFC;
+	height:auto;
+}
+#main-page-header{
+	background-color: #222222;
+	height: 10vh;
+	max-height: 10vh;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+	color:white;
+	vertical-align: middle;
+}
+#side-bar-under-header{
+	background-color: #F2F2F2;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+	color:#B2B2B2;
+}
+#main-page-under-header{
+	background-color: #F2F2F2;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+	color:#B2B2B2;
+}
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+a{
+	color:black;
+}
+a:hover{
+	text-decoration: none;
+	color:#8FB2FF;
+}
+#heading{
+	cursor: pointer;
+}
+#headline{
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.modal.modal-news .modal-dialog{
+	width: 80%;
+}
+.modal.modal-complaint .modal-dialog{
+	width: 80%;
+}
